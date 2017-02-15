@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title> </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <style>
+    .absolute--center-v {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .absolute--center-h {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .absolute--center {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+  <body>
+
+    <div class="hide-child w-25 relative pointer">
+      <img src="https://source.unsplash.com/random/500x500" alt="" class="db w-100 mw-100">
+      <div class="child absolute absolute--fill bg-black-60">
+        <div class="absolute absolute--center white b ttu">
+          Hello!
+        </div>
+      </div>
+    </div>
+    hover me
+
+  </body>
+</html>
