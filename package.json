@@ -1,0 +1,14 @@
+{
+  "name": "tachyons-templates",
+  "version": "1.0.0",
+  "description": "ui examples made with tachyons",
+  "repository": "https://github.com/luizbills/tachyons-templates",
+  "author": "Luiz Bills <luizpbills@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "serve": "live-server --port=23456"
+  }
+}
