@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title> </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <style>
+    .shadow-1 { box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); }
+    .shadow-2 { box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08); }
+    .shadow-3 { box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08); }
+    .shadow-0 { box-shadow: none }
+
+    @media screen and (min-width: 30em) {
+      .shadow-1-ns { box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); }
+      .shadow-2-ns { box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08); }
+      .shadow-3-ns { box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08); }
+      .shadow-0-ns { box-shadow: none }
+    }
+
+    @media (min-width: 30em) and (max-width: 60em) {
+      .shadow-1-m { box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); }
+      .shadow-2-m { box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08); }
+      .shadow-3-m { box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08); }
+      .shadow-0-m { box-shadow: none }
+    }
+
+    @media screen and (min-width: 60em) {
+      .shadow-1-l { box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); }
+      .shadow-2-l { box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08); }
+      .shadow-3-l { box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08); }
+      .shadow-0-l { box-shadow: none }
+    }
+  </style>
+  <body class="bg-near-white">
+    <div class="pa3 mt4 shadow-0 w-25 center bg-white">
+      <code>.shadow-0</code>
+    </div>
+
+    <div class="pa3 mt4 shadow-1 w-25 center bg-white">
+      <code>.shadow-1</code>
+    </div>
+
+    <div class="pa3 mt4 shadow-2 w-25 center bg-white">
+      <code>.shadow-2</code>
+    </div>
+
+    <div class="pa3 mt4 shadow-3 w-25 center bg-white">
+      <code>.shadow-3</code>
+    </div>
+
+  </body>
+</html>
+
